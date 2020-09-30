@@ -41,7 +41,7 @@ const Navigation = () => {
                                     <Link className="links" to="/contact">Contact</Link>
                                 </NavItem>
                             </Nav>
-                            <a className="contact-btn" href="">Resume</a>
+                            <a className="contact-btn" href="/">Resume</a>
                             <NavLink className="nav-social-icons" href="https://github.com/akashgupta1116" target="blank"><GitHubIcon/></NavLink>
                             <NavLink className="nav-social-icons" href="https://www.linkedin.com/in/akash-gupta-134a50187/" target="blank"><LinkedInIcon/></NavLink>
                             <NavLink className="nav-social-icons"><InstagramIcon/></NavLink>
