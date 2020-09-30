@@ -1,0 +1,39 @@
+.home-continer{
+    width:40%;
+    margin:auto;
+    text-align:center;
+    padding-top:90px;
+}
+.home-heading{
+    animation: 
+    home-typing 1.2s steps(10, end),
+    home-blink-caret 0.75s step-end infinite ;
+}
+
+/* The typing effect */
+@keyframes home-typing {
+  from { width: 0 }
+  to { width: 15ch }
+}
+
+/* The typewriter cursor effect */
+@keyframes home-blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+
+}
+.learn-more-btn{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.learn-more-btn:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.2), 0 7px 8px 0 rgba(0, 0, 0, 0.17);
+    text-decoration: none;
+}

@@ -1,0 +1,35 @@
+.navbar-div{
+    background-color: black !important;
+}
+.home-icon{
+    height: 50px;
+    border-radius:30px;
+    transition: transform 0.5s ;
+    
+}
+.home-icon:hover{
+    transform: rotate(360deg);
+}
+.links{
+    margin-right: 20px;
+    color: rgb(163, 160, 160) ;
+    
+}
+.links:hover{
+    color: white !important;
+    text-decoration: none !important;
+}
+.nav-social-icons{
+    color: white;
+}
+.nav-social-icons:hover{
+    color: white !important;
+    cursor: pointer !important;
+}
+.nav-social-icons > .MuiSvgIcon-root{
+    font-size: 35px;
+    transition: transform 0.7s ;
+}
+.nav-social-icons > .MuiSvgIcon-root:hover{
+    transform: rotate(360deg);
+}
