@@ -21,7 +21,7 @@ const details = [{
     tech: ['HTML', 'CSS', 'Javascript'],
     link: 'https://github.com/akashgupta111/Covid-Tracker',
     imgSrc: "https://drive.google.com/thumbnail?id=1zWI2dfUtj3dKA--xnct1IXxszO95lV3Z",
-    deployedLink: 'https://drive.google.com/file/d/1zWI2dfUtj3dKA--xnct1IXxszO95lV3Z/view?usp=sharing'
+    deployedLink: 'https://royaltraders-havellsgallery.netlify.app/'
 }]
 
 
