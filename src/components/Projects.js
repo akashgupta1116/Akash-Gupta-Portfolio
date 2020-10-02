@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './projects.css';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import details from '../projectDetails';
 
-class Projects extends Component {
-    state={
-        projectsInfo:[{name:'Akash Gupta',tech:['HTML','CSS','Javascript','React.js'],link:'https://github.com/akashgupta111/Covid-Tracker'},{name:'India Corona Tracker',tech:['HTML','CSS','Javascript','React.js'],link:'https://github.com/akashgupta111/Covid-Tracker'},{name:'Netflix-Clone',tech:['HTML','CSS','Javascript','React.js'],link:'https://github.com/akashgupta1116/Netflix-Clone'},{name:'Royal Traders Site',tech:['HTML','CSS','Javascript','React.js'],link:'https://github.com/akashgupta111/Covid-Tracker'}]
-    }
-    render() {
+const Projects =()=> {
         return (
             <div className="container">
                 <div className="heading">
@@ -14,7 +11,7 @@ class Projects extends Component {
                 </div>
                
                 <div className="projects-bottom load-animation">
-                    {this.state.projectsInfo.map((item,index)=>(
+                    {details.map((item,index)=>(
                         <div key={item+index} className="card">
                             <div className="card-top">
                                 <h4 className="project-name">{item.name}</h4>
@@ -28,8 +25,9 @@ class Projects extends Component {
                                     <span key={tech} className="tech-span">{tech}</span>
                                 ))}
                             </div>
-                            <div>
-                                
+                            
+                            <div className="project-image-part">
+                                <a href={item.deployedLink} target="blank"><img className="project-image" src={item.imgSrc} alt={item.name}/></a>
                             </div>
                             
                         </div>
@@ -37,7 +35,7 @@ class Projects extends Component {
                 </div>
             </div>
         );
-    }
+    
 }
 
 export default Projects;

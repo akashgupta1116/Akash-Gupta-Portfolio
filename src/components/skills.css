@@ -1,14 +1,16 @@
-.skills-bottom{
+.skills-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     padding-top: 50px;
     margin-bottom: 20px;
 }
-.skills-bottom h4{
+
+.skills-bottom h4 {
     font-weight: bold !important;
 }
-.skills-list{
+
+.skills-list {
     padding-left: 15px;
 }

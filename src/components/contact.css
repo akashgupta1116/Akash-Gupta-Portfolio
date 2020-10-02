@@ -1,4 +1,4 @@
-.contacts-bottom{
+.contacts-bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,25 +7,26 @@
     margin: auto;
     flex-wrap: wrap;
 }
-.contact-div{
+
+.contact-div {
     display: flex;
     flex-direction: column;
 }
-.contact-btn{
+
+.contact-btn {
     background-color: black;
     color: white;
     text-align: center;
-    padding:10px 20px;
+    padding: 10px 20px;
     border: 1px solid white;
     border-radius: 5px;
     font-weight: bold;
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
     background-color: white;
     color: black;
-    /* text-align: center; */
-    /* padding:10px 20px; */
     border: 1px solid black;
     text-decoration: none;
-   
+
 }

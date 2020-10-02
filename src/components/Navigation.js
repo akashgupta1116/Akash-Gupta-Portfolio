@@ -8,19 +8,19 @@ import {
     NavItem,
     NavLink,
   } from 'reactstrap';
-  import GitHubIcon from '@material-ui/icons/GitHub';
-  import LinkedInIcon from '@material-ui/icons/LinkedIn';
-  import InstagramIcon from '@material-ui/icons/Instagram';
-  import './navigation.css';
-  import {Link} from 'react-router-dom';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import './navigation.css';
+import {Link} from 'react-router-dom';
 
 const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
+    
     return (
-        
-            <Navbar className="navbar-div"  expand="md">
+            <Navbar dark className="navbar-div"  expand="md">
                     <NavbarBrand href="/"><img className="home-icon"src={require('../assets/bear-icon.png')} alt="logo"/></NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
@@ -41,10 +41,12 @@ const Navigation = () => {
                                     <Link className="links" to="/contact">Contact</Link>
                                 </NavItem>
                             </Nav>
-                            <a className="contact-btn" href="/">Resume</a>
-                            <NavLink className="nav-social-icons" href="https://github.com/akashgupta1116" target="blank"><GitHubIcon/></NavLink>
-                            <NavLink className="nav-social-icons" href="https://www.linkedin.com/in/akash-gupta-134a50187/" target="blank"><LinkedInIcon/></NavLink>
-                            <NavLink className="nav-social-icons"><InstagramIcon/></NavLink>
+                            <Nav>
+                                <NavLink className="resume-btn" href="https://drive.google.com/file/d/1BRYP-7p7E6V9H3tfYLvBMBAQEs2txVH9/view?usp=sharing" target="blank">Resume</NavLink>
+                                <NavLink className="nav-social-icons" href="https://github.com/akashgupta1116" target="blank"><GitHubIcon/></NavLink>
+                                <NavLink className="nav-social-icons" href="https://www.linkedin.com/in/akash-gupta-134a50187/" target="blank"><LinkedInIcon/></NavLink>
+                                <NavLink className="nav-social-icons" href="https://www.instagram.com/akashgupta6/" target="blank"><InstagramIcon/></NavLink>
+                            </Nav>
                     </Collapse>
             </Navbar>
     );

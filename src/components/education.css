@@ -1,29 +1,32 @@
-.education-content{
+.education-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
     padding-top: 30px;
 }
-.education-content-1{
+
+.education-content-1 {
     flex: 1;
 }
-.education-content-2{
+
+.education-content-2 {
     flex: 1;
-    
+
 }
-.education-institue{
+
+.education-institue {
     font-weight: bold;
     font-size: 20px;
-    /* text-align: center; */
 }
-.degree{
+
+.degree {
     font-size: 40px;
-    /* text-align: center; */
     font-weight: bold;
 }
-.degree-div{
-   text-align: initial;
-   width: 45%;
-   margin: auto;
+
+.degree-div {
+    text-align: initial;
+    width: 45%;
+    margin: auto;
 }

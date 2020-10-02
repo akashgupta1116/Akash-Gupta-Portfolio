@@ -1,35 +1,59 @@
-.navbar-div{
+.navbar-div {
     background-color: black !important;
 }
-.home-icon{
+
+.home-icon {
     height: 50px;
-    border-radius:30px;
-    transition: transform 0.5s ;
-    
+    border-radius: 30px;
+    transition: transform 0.5s;
+
 }
-.home-icon:hover{
+
+.home-icon:hover {
     transform: rotate(360deg);
 }
-.links{
+
+.links {
     margin-right: 20px;
-    color: rgb(163, 160, 160) ;
-    
+    color: rgb(163, 160, 160);
 }
-.links:hover{
+
+.links:hover {
     color: white !important;
     text-decoration: none !important;
 }
-.nav-social-icons{
+
+.resume-btn {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 20px !important;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.resume-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none
+}
+
+.nav-social-icons {
     color: white;
 }
-.nav-social-icons:hover{
+
+.nav-social-icons:hover {
     color: white !important;
     cursor: pointer !important;
 }
-.nav-social-icons > .MuiSvgIcon-root{
+
+.nav-social-icons>.MuiSvgIcon-root {
     font-size: 35px;
-    transition: transform 0.7s ;
+    transition: transform 0.7s;
 }
-.nav-social-icons > .MuiSvgIcon-root:hover{
+
+.nav-social-icons>.MuiSvgIcon-root:hover {
     transform: rotate(360deg);
 }
