@@ -17,7 +17,7 @@ const details = [{
     imgSrc: "https://drive.google.com/thumbnail?id=1QlFzVphGh6j1xaMny0RByxExW1025xTJ",
     deployedLink: 'https://akashgupta1116.github.io/Netflix-Clone/#/'
 }, {
-    name: 'Havells Gallery Site',
+    name: 'Havells Gallery',
     tech: ['HTML', 'CSS', 'Javascript'],
     link: 'https://github.com/akashgupta1116/Havells-Gallery',
     imgSrc: "https://drive.google.com/thumbnail?id=1zWI2dfUtj3dKA--xnct1IXxszO95lV3Z",
