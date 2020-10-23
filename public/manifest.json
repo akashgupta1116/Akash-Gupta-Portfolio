@@ -26,7 +26,7 @@
     {
       "name": "About",
       "short_name": "About",
-      "url": "/about",
+      "url": "https://akashgupta-portfolio.netlify.app/#/about",
       "icons": [
         {
           "src": "bear-icon.png",
