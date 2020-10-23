@@ -38,7 +38,7 @@
     {
       "name": "Projects",
       "short_name": "Projects",
-      "url": "/projects",
+      "url": "https://akashgupta-portfolio.netlify.app/#/projects",
       "icons": [
         {
           "src": "bear-icon.png",
@@ -50,7 +50,7 @@
     {
       "name": "Skills",
       "short_name": "Skills",
-      "url": "/skills",
+      "url": "https://akashgupta-portfolio.netlify.app/#/skills",
       "icons": [
         {
           "src": "bear-icon.png",
@@ -62,7 +62,7 @@
     {
       "name": "Education",
       "short_name": "Education",
-      "url": "/education",
+      "url": "https://akashgupta-portfolio.netlify.app/#/education",
       "icons": [
         {
           "src": "bear-icon.png",
@@ -74,7 +74,7 @@
     {
       "name": "Contact",
       "short_name": "Contact",
-      "url": "/contact",
+      "url": "https://akashgupta-portfolio.netlify.app/#/contact",
       "icons": [
         {
           "src": "bear-icon.png",
