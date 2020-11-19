@@ -1,42 +1,45 @@
-import React from 'react';
+import React,{lazy,Suspense} from 'react';
 import './App.css';
-import Home from './components/Home';
 import Navigation from './components/Navigation';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import Education from './components/Education';
 import Footer from './components/Footer';
 
-function App() {
+const Home = lazy(()=> import('./components/Home'));
+const About = lazy(()=> import('./components/About'));
+const Skills = lazy(()=> import('./components/Skills'));
+const Projects = lazy(()=> import('./components/Projects'));
+const Contact = lazy(()=> import('./components/Contact'));
+const Education = lazy(()=> import('./components/Education'));
+
+const App= () => {
   return (
     <div className="App">
-      <Router>
-        <Navigation/>
-        <Switch>
-          <Route exact path="/about">
-            <About/> 
-          </Route>
-          <Route exact path="/skills">
-            <Skills/> 
-          </Route>
-          <Route exact path="/projects">
-            <Projects/>
-          </Route>
-          <Route exact path="/education">
-            <Education/>
-          </Route>
-          <Route exact path="/contact">
-            <Contact/>
-          </Route>
-          <Route exact path="/">
-            <Home/> 
-          </Route>
-        </Switch>
-        <Footer/>
-      </Router>
+      <Suspense fallback={<h1>loading …</h1>}>
+          <Router>
+            <Navigation/>
+            <Switch>
+              <Route exact path="/about">
+                <About/> 
+              </Route>
+              <Route exact path="/skills">
+                <Skills/> 
+              </Route>
+              <Route exact path="/projects">
+                <Projects/>
+              </Route>
+              <Route exact path="/education">
+                <Education/>
+              </Route>
+              <Route exact path="/contact">
+                <Contact/>
+              </Route>
+              <Route exact path="/">
+                <Home/> 
+              </Route>
+            </Switch>
+            <Footer/>
+          </Router>
+      </Suspense>
      
     </div>
   );
