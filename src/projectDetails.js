@@ -1,6 +1,6 @@
 const details = [{
     name: 'Realtime Voting App',
-    tech: ['HTML', 'CSS', 'Javascript', 'React.js','NodeJS'],
+    tech: ['HTML', 'CSS', 'Javascript', 'React.js','NodeJS','ChartJS'],
     link: 'https://github.com/akashgupta1116/realtime-voting-reactjs',
     imgSrc: "https://drive.google.com/thumbnail?id=1c20PuvkW3XZrEHDUonDGp-bJ-HR5CmSs",
     deployedLink: 'https://realtime-voting-react-ably.herokuapp.com/'
