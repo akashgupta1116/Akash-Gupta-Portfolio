@@ -42,13 +42,14 @@ const Navigation = () => {
                                 </NavItem>
                             </Nav>
                             <Nav>
-                                <NavLink className="resume-btn" href="https://drive.google.com/file/d/1BRYP-7p7E6V9H3tfYLvBMBAQEs2txVH9/view?usp=sharing" target="blank">Resume</NavLink>
+                                <NavLink className="resume-btn" href="https://drive.google.com/file/d/1HsrVh5TeWJQKrMcfwoy_Z11DzxVc8bE-/view?usp=sharing" target="blank">Resume</NavLink>
                                 <NavLink className="nav-social-icons" href="https://github.com/akashgupta1116" target="blank"><GitHubIcon/></NavLink>
                                 <NavLink className="nav-social-icons" href="https://www.linkedin.com/in/akash-gupta-134a50187/" target="blank"><LinkedInIcon/></NavLink>
                                 <NavLink className="nav-social-icons" href="https://www.instagram.com/akashgupta6/" target="blank"><InstagramIcon/></NavLink>
                             </Nav>
                     </Collapse>
             </Navbar>
+            
     );
 };
 
