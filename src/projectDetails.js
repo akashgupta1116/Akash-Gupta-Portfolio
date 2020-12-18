@@ -1,4 +1,10 @@
 const details = [{
+    name: 'Realtime Voting App',
+    tech: ['HTML', 'CSS', 'Javascript', 'React.js','NodeJS'],
+    link: 'https://github.com/akashgupta1116/realtime-voting-reactjs',
+    imgSrc: "https://drive.google.com/thumbnail?id=1c20PuvkW3XZrEHDUonDGp-bJ-HR5CmSs",
+    deployedLink: 'https://realtime-voting-react-ably.herokuapp.com/'
+},{
     name: 'Akash Gupta',
     tech: ['HTML', 'CSS', 'Javascript', 'React.js'],
     link: 'https://github.com/akashgupta111/Covid-Tracker',
