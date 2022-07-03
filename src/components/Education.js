@@ -11,11 +11,11 @@ const Education = () => {
                 <div className="education-content-1">
                     <p className="education-institue">Guru Gobind Singh Indraprastha University</p>
                     <p className="degree">Bachelor Of Technology (E.C.E)</p>
-                    <div className="degree-div">
+                    {/* <div className="degree-div">
                         <p><strong>Aggregate:</strong> 61.5%(Till 7th sem)</p>
                         <p><strong>Graduation :</strong> In Final sem</p>
 
-                    </div>
+                    </div> */}
                 </div>
                 <div className="education-content-2">
                     <p className="education-institue">Vivekanand School</p>

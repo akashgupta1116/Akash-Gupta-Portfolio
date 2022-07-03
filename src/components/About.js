@@ -17,10 +17,10 @@ const About = () => {
                 <div className="about-content load-animation">
                     <div className="about-content-left">
                         <h3>Favourites</h3>
-                        <p><strong>Food:</strong>Pizza, Chocolate, Indian</p>
-                        <p><strong>Sports:</strong>Cricket, Basketball</p>
-                        <p><strong>Video Games:</strong>FIFA, Assassin's Creed, GTA</p>
-                        <p><strong>Movie Genres:</strong>Sci-Fi,Action,History</p>
+                        <p><strong>Food: </strong>Pizza, Chocolate, Indian</p>
+                        <p><strong>Sports: </strong>Cricket, Basketball</p>
+                        <p><strong>Video Games: </strong>FIFA, Assassin's Creed, GTA</p>
+                        <p><strong>Movie Genres: </strong>Sci-Fi,Action,History</p>
                     </div>
                     <div className="about-content-right">
                         <div className="my-image-div">
