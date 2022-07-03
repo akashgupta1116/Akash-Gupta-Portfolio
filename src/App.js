@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from './components/Navigation';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from './components/Footer';
+import Loader from './components/Loader'
 
 const Home = lazy(()=> import('./components/Home'));
 const About = lazy(()=> import('./components/About'));
@@ -14,7 +15,7 @@ const Education = lazy(()=> import('./components/Education'));
 const App= () => {
   return (
     <div className="App">
-      <Suspense fallback={<h1>loading …</h1>}>
+      <Suspense fallback={<Loader/>}>
           <Router>
             <Navigation/>
             <Switch>
