@@ -24,7 +24,7 @@ const About = () => {
                     </div>
                     <div className="about-content-right">
                         <div className="my-image-div">
-                            <img className="my-image"src={require('../assets/my-pic.jpg')} alt="me"/>
+                            <img className="my-image"src={require('../assets/akash-profile.jpeg')} alt="me"/>
                         </div>
                     </div>
                 </div>
