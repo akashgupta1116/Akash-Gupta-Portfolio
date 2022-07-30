@@ -10,7 +10,7 @@ const About = () => {
                         Software Engineer that is passionate
                         about coding and creating awesome software. I love learning new
                         technologies and building stuff from start to finish, specially 
-                        mobile applications!
+                        web applications!
                     </p>
 
                 </div>
