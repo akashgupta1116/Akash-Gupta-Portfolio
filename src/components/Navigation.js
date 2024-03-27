@@ -42,7 +42,7 @@ const Navigation = () => {
                                 </NavItem>
                             </Nav>
                             <Nav>
-                                <NavLink className="resume-btn" href="https://drive.google.com/file/d/18AtP3YSu-NtWeToTLq8ibciP9YJVU3z8/view" target="blank">Resume</NavLink>
+                                <NavLink className="resume-btn" href="https://drive.google.com/file/d/15ytRSDqN22WCcRc29Tzd9fkEqc8Wy2pJ/view" target="blank">Resume</NavLink>
                                 <NavLink className="nav-social-icons" href="https://github.com/akashgupta1116" target="blank"><GitHubIcon/></NavLink>
                                 <NavLink className="nav-social-icons" href="https://www.linkedin.com/in/akash-gupta-134a50187/" target="blank"><LinkedInIcon/></NavLink>
                                 <NavLink className="nav-social-icons" href="https://www.instagram.com/akashgupta6/" target="blank"><InstagramIcon/></NavLink>
