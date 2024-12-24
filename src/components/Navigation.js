@@ -61,7 +61,7 @@ const Navigation = () => {
         <Nav>
           <NavLink
             className="resume-btn"
-            href="https://drive.google.com/file/d/1hzDfa0igq--1i-fr2OBwpW0wysKpTLUA/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ld3OHjJtRQpxz8cNxS1MP7a8yoXF6q6B/view?usp=sharing"
             target="blank"
           >
             Resume
